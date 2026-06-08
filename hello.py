@@ -71,3 +71,24 @@ if 10<100:
         b="I love Brazil"
     myfunc()
     print(b)
+    #pyton numbers
+    x=10.52
+    print(int(x))
+    print(complex(x))
+    print(float(x))
+    
+    import random
+    print(random.randrange(1,10))
+    
+    #Python Strings
+    
+    a="Brazil,Argentina,France"
+    print(a[0])
+    print(len(a))
+    b="I love Banglaseh"
+    print("love" in b)
+    print(b[2:6])
+    print(b[:6])
+    #Negative Indexing
+    print(b[-5])
+    print(b[-5:-2])
