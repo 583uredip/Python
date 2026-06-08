@@ -21,3 +21,53 @@ if 10<100:
     """This is a multi-line comment
     It can span multiple lines
     and is often used for documentation purposes"""
+    #Variables
+    x=10
+    y="My name is Neymar"
+    x="I am Love messi"
+    print(x)
+    print(y)
+    print(type(x))
+    print(type(y))
+    b=20
+    print(type(b))
+    myvarialname=10
+    print(myvarialname)
+    my_name_is_neymar=20
+    print(my_name_is_neymar)
+    MYVARIALNAME=30
+    print(MYVARIALNAME)
+    # Assign Multiple Values
+    X,Y,Z="brazil","argentina","france"
+    print(X)
+    print(Y)
+    print(Z)
+    x=y=z="Hello World"
+    print(x)
+    print(y)
+    print(z)
+    University=["Aiub","Aust","Aup"]
+    print(University)
+    #output with variables
+    name="Neymar"
+    age=30
+    print("My name is",name,"and I am",age,"years old")
+    x="Aiub"
+    y="is a great university"
+    print(x+" "+y)
+    
+    a=500
+    
+    def myfunc():
+        a=300
+        print("The number is", a)
+    myfunc()
+    print("The number is", a)
+    
+    #global variables
+    b="I love Arentina"
+    def myfunc():
+        global b
+        b="I love Brazil"
+    myfunc()
+    print(b)
