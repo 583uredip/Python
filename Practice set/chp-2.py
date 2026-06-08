@@ -12,7 +12,11 @@ print(type(x))
 b=input("Enter The Value of b: ")
 print(type(b))
 print("Value of b is",b)
-
+#Question 4: Average of two numbers
 a=int(input("Enter The Value of a: "))
 b=int(input("Enter The Value of b: "))
 print("a is greater than b:",a>b)
+print("The Average of these two numbers is",(a+b)/2)
+#Question 5: Square of a number
+a=int(input("Enter Your Number:"))
+print("The Square of Your Number is:",a**2)
