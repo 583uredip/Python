@@ -92,3 +92,24 @@ if 10<100:
     #Negative Indexing
     print(b[-5])
     print(b[-5:-2])
+    #Python - Modify Strings
+    a="Brazil Hexagon"
+    print(a.upper())
+    b="I LOVE MY MOTHER!      "
+    print(b.lower())
+    print(b.split(","))
+    #The Walrus Operator
+    num=[1,2,3,4,5]
+    if(n:=len(num))>3:
+        print(f"The list has {n} elements")
+        age=[30,40,89,55,20]
+    if (n:=len(age))>4:
+        print(f"The list has {n} elements")
+        #The Ternary Operator
+        cgpa=2.50
+        result="Probation" if cgpa<2.50 else "Not in Probation"
+        print(result)
+        age=20
+        vote="Eligible to vote" if age>=18 else "Not eligible to vote"
+        print(vote)
+    
