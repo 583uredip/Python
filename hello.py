@@ -112,4 +112,11 @@ if 10<100:
         age=20
         vote="Eligible to vote" if age>=18 else "Not eligible to vote"
         print(vote)
-    
+        # If statements
+        a=20
+        b=30
+        if(a>b):
+            print("a is greater than b")
+num= 1
+if num>0:
+    print("The number is positive")
