@@ -120,3 +120,18 @@ if 10<100:
 num= 1
 if num>0:
     print("The number is positive")
+age=20
+if(age>18):
+    print("You Are an adulet")
+    print("You can vote this elaction")
+    
+    #  a = int(input("Enter Your age:"))
+
+if a < 60:
+    print("Your Time Is Not Now To Retirement")
+else:
+    print("You Can Retire Now")
+    
+    login=True
+    if login:
+        print("Welcome back")
