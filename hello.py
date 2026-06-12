@@ -135,3 +135,29 @@ else:
     login=True
     if login:
         print("Welcome back")
+    else:
+        print("Login falid")
+        
+        #Python Elif Statement
+        a=20
+        b=20
+        if(a>b):
+            print("a getaer than b")
+        elif a==b:
+            print("a Equal to b")
+        mark=100
+        if(mark>=90):
+            print("Your grade is A+")
+        elif(mark>=85):
+            print("Your grade is A")
+        elif(mark<=85):
+            print("your grade is B+")
+        
+        #Python Shorthand If
+        A=20
+        b=30
+        print("A") if a>b else print("B")
+        
+        x=20
+        y=30
+        print("X") if x>y else print("=") if a==b else print("Y")
