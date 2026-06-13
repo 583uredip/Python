@@ -161,3 +161,14 @@ else:
         x=20
         y=30
         print("X") if x>y else print("=") if a==b else print("Y")
+        
+        #Python Lists
+country = ["Brazil", "Canada", "Bangladesh"]
+print(country)
+country= ["Brazil", "Canada", "Bangladesh","England"]
+print(country)
+print(len(country))
+list1=["MA","Baba",20,False,39.09]
+print(type(list1))
+
+thisList=(list("Monitor","Dhaka",39,""))
