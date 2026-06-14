@@ -15,7 +15,7 @@ else:
             print(f"'{char}' Is Digit....")
             
     elif char is string.punctuation:
-        print(f"'{char}' Is A P unctuation ...")
+        print(f"'{char}' Is A Punctuation ...")
     elif char.isspace():
         print("You Pressed Only Space Bar")
         
