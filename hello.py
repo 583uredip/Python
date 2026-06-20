@@ -171,4 +171,14 @@ print(len(country))
 list1=["MA","Baba",20,False,39.09]
 print(type(list1))
 
-thisList=(list("Monitor","Dhaka",39,""))
+#thisList=(list("Monitor","Dhaka",39,""))
+#print(thisList)
+
+#Python - Remove List Items
+playerName=["Messi","Neymar","Ronaldo","kaka"]
+playerName.remove("Messi")
+print(playerName)
+playerName.pop(2)#also can use del
+print(playerName)
+playerName.clear()
+print(playerName)
