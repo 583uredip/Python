@@ -5,7 +5,7 @@ c=a+b
 print("The sum of a and b is:",c)
 if 10<100:
     print ("10 is less than 100")
-    ##Statements 
+    ##Statements
     print("America is a great country"); print("I love programming"); print("Python is a great language")
     #Python Output / Print
     print('Brazil is a great country',end=' in South America,')
@@ -182,3 +182,22 @@ playerName.pop(2)#also can use del
 print(playerName)
 playerName.clear()
 print(playerName)
+
+#Python - Loop Lists
+
+moobileList=["Iphone","Samsung","Vivo","Oppo"]
+for x in moobileList:
+    print(x)
+    
+    for i in range(len(moobileList)):
+        print(moobileList[i])
+        
+        #Loop Through the Index Numbers
+        
+        chair=["Rfl","Regal","Bengol","Tamim"]
+        i=0
+        while i<len(chair):
+            print(chair)
+            i=i+1
+            
+        [print(x) for x in chair]
