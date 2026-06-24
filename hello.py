@@ -201,3 +201,36 @@ for x in moobileList:
             i=i+1
             
         [print(x) for x in chair]
+        
+        #List Comprehension
+        
+    fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+    newList=[]
+    for x in fruits:
+        if "a" in x:
+            newList.append(x)
+            print(newList)
+        
+        #With list comprehension
+        city=["dhaka","khuylna","Kustiha","Foridpur"]
+        newcity=[x for x in city if "K" in x]
+        print(newcity)
+        #newcity=[ a for a in range(10)]
+        print(newcity)
+        #newcity=[a for a in range(10) if a<5]
+        print(newcity)
+        newcity=[x.upper() for x in newcity]
+        
+        #Sort Lists
+        number=[773,321,23,452,234,42]
+        number.sort()
+        print(number)
+        number.sort(reverse=True)
+        print(number)
+        
+        def myfunc(n):
+            return abs(n - 50)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfunc)
+print(thislist)
